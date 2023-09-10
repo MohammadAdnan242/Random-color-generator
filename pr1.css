@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cedarville+Cursive&display=swap');
+*{
+    background-color:lightgreen;
+}
+.container-fluid{
+    font-family: 'Borel', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: 200px;
+    display: flex; 
+    text-align: center;
+    justify-content: center ;
+}
+#ad{
+    width: 50%;
+    margin-left:25% ;
+    padding-bottom: 30px; 
+}
+
+#Hex-colors{
+    border: 1px solid black;
+    padding-left: 25px;
+    animation:  changecolor 5s infinite alternate;
+}
+
+@keyframes changecolor{
+    0%{
+        color:indigo ;
+    }
+    20%{
+        color:blue ;
+    }
+    40%{
+        color:green ;
+    }
+    60%{
+        color:yellow ;
+    }
+    80%{
+        color:orange ;
+    }
+    100%{
+        color:red ;
+    }
+    
+}
+#madeby{
+
+    font-family: 'Borel', cursive;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align:center ;
+    font-size: x-large;
+    font-weight: 200px;
+}
